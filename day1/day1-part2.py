@@ -1,4 +1,4 @@
-with open('../inputs/day1-data') as file:
+with open('day1-data') as file:
     inputList = list(map(int, file.readlines()))
 max = inputList.__len__() - 3
 count = 0

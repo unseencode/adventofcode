@@ -1,4 +1,4 @@
-with open('../inputs/day1-data') as file:
+with open('day1-data') as file:
     inputList = list(map(int, file.readlines()))
 count = 0
 for idx, line in enumerate(inputList):
